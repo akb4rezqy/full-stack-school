@@ -21,7 +21,6 @@ services:
     environment:
       - DATABASE_URL=postgresql://myuser:mypassword@postgres:5432/mydb
       - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_cGxlYXNhbnQtcGVyY2gtNTAuY2xlcmsuYWNjb3VudHMuZGV2JA
-      - CLERK_PUBLISHABLE_KEY=pk_test_cGxlYXNhbnQtcGVyY2gtNTAuY2xlcmsuYWNjb3VudHMuZGV2JA
       - CLERK_SECRET_KEY=sk_test_rD5mr3V7zxUSIbgijyDWdEnvaHDWgJOdBZDWfKkpIQ
     depends_on:
       - postgres
