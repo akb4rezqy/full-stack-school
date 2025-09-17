@@ -20,7 +20,7 @@ services:
       - '3000:3000'
     environment:
       - DATABASE_URL=postgresql://myuser:mypassword@postgres:5432/mydb
-      - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=YOUR_CLERK_PUBLISHABLE_KEY
+      - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_cGxlYXNhbnQtcGVyY2gtNTAuY2xlcmsuYWNjb3VudHMuZGV2JA
     depends_on:
       - postgres
 
